@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke" verbose="1">
+    <test name="ContextMenuPageTest">
+        <classes>
+            <class name="org.tms.test.ContextMenuPageTest" />
+            <class name="org.tms.test.DynamicControlsPageTest" />
+            <class name="org.tms.test.FileUploaderPageTest" />
+        </classes>
+    </test>
+</suite>
